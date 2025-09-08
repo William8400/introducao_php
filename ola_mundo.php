@@ -55,7 +55,7 @@
     echo "<h2> Nome:$nome</h2>";
     echo "<h2> Idade:$idade</h2>";
     echo "<h2> altura:$altura</h2>";
-    echo "<h2> Está vivo:$vivo</h2>";
+    echo "<h2>Vivo: " . ($vivo ? "Sim" : "Não") . " </h2> ";
     echo "<h2> hobbie principal:$hobbies[0]<h2/>";
     // ------------------------------------------------------------------
     echo "<h1> Array Associativo </h1>";
