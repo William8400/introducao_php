@@ -35,31 +35,31 @@
 
     //Lista (ARRAY indexado) usa números como índice (ex: 0, 1, 2...).
 
-    $hobbies = ["Caminhar" , "Filmes", "Video Games"];
+    $hobbies = ["Caminhar", "Filmes", "Video Games"];
 
     // Lista (ARRAY associativo) usa nomes (chaves) como índice (ex: "nome" => "João").
 
     $pessoa = [
 
-         'nome' => "William",
-         'idade' => 18,
-         'altura' => 1.80,
-         'vivo' => true,
-         'hobbies' => ["Caminhar", "filmes", "Video Games"]
+        'nome' => "William",
+        'idade' => 18,
+        'altura' => 1.80,
+        'vivo' => true,
+        'hobbies' => ["Caminhar", "filmes", "Video Games"]
 
     ];
-//Interpolação
-    
+    //Interpolação
+
     echo "<h1> Estruturas de dados simples e Arrays indexado </h1>";
-// ------------------------------------------------------------------
+    // ------------------------------------------------------------------
     echo "<h2> Nome:$nome</h2>";
     echo "<h2> Idade:$idade</h2>";
     echo "<h2> altura:$altura</h2>";
     echo "<h2> Está vivo:$vivo</h2>";
     echo "<h2> hobbie principal:$hobbies[0]<h2/>";
-// ------------------------------------------------------------------
+    // ------------------------------------------------------------------
     echo "<h1> Array Associativo </h1>";
-    
+
     echo $pessoa['nome'];
     echo $pessoa['idade'];
     echo $pessoa['altura'];
