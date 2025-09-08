@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   
 
     <title>Introdução ao PHP</title>
 
@@ -49,7 +49,7 @@
 
     ];
     //Interpolação
-
+    
     echo "<h1> Estruturas de dados simples e Arrays indexado </h1>";
     // ------------------------------------------------------------------
     echo "<h2> Nome:$nome</h2>";
